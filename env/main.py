@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from database import database, engine, metadata
+from env.database import database, engine, metadata
 from schemas import Task, TaskIn
 from crud import get_tasks, create_task, update_task, delete_task
 
